@@ -12,8 +12,9 @@ public class MathCalculator {
         return diff(first, second) + div(first, second);
     }
 
-    public static double sumGeneral(double f, double s) {
-        return sum(f, s) + multiply(f, s) + diff(f, s) + div(f, s);
+    public static double sumGeneral(double first, double second) {
+        return sum(first, second) + multiply(first, second)
+                + diff(first, second) + div(first, second);
     }
 
     public static void main(String[] args) {

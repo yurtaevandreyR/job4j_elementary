@@ -21,7 +21,6 @@ public class Converter {
     public static void main(String[] args) {
         boolean outputEuro = rubleToEuroTest(900F, 9F);
         boolean outputDollar = rubleToDollarTest(900F, 10F);
-
         System.out.println("900 rubles are 9 euros. Test result: " + outputEuro);
         System.out.println("900 rubles are 10 dollars. Test result: " + outputDollar);
 
