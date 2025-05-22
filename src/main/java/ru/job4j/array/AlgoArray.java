@@ -10,6 +10,7 @@ public class AlgoArray {
             System.out.println(num);
         }
         System.out.println("*****************");
+
         temp = array[1];
         array[1] = array[2];
         array[2] = temp;
@@ -17,6 +18,7 @@ public class AlgoArray {
             System.out.println(num);
         }
         System.out.println("*****************");
+
         temp = array[3];
         array[3] = array[4];
         array[4] = temp;
